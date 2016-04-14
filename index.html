@@ -80,7 +80,9 @@ src="./admarschoonen_files/skel.min.js"></script>
 			&lt;link rel="stylesheet" href="css/style-xlarge.css" /&gt;
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	<link rel="stylesheet" type="text/css" href="chrome-extension://pkehgijcmpdhfbdbbnkijodmdjhbjlgp/skin/socialwidgets.css"></head>
+	<link rel="stylesheet" type="text/css" href="chrome-extension://pkehgijcmpdhfbdbbnkijodmdjhbjlgp/skin/socialwidgets.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
 	<body id="top" class="">
 
 		<!-- Header -->
@@ -92,9 +94,11 @@ engineer by day, electronics and textile experimenter by night.
 				</h1>
 				<h1>
 				<strong>
-<a href="#Work">Work</a> | 
-<a href="#Fun">Fun</a> |
-<a href="#About">About</a>
+<a href="#Intro">Intro</a> | 
+<a href="#E-Textile">E-Textile</a> | 
+<a href="#Lighting">Lighting</a> |
+<a href="#About">About</a> | 
+<a href="#Contact">Contact</a>
 				</h1>
 			</header>
 
@@ -102,107 +106,39 @@ engineer by day, electronics and textile experimenter by night.
 			<div id="main">
 				<!-- One -->
 					<section id="one">
+					<h2><a name="Intro"></a></h2>
 						<header class="major">
-							<h2>Admar Schoonen</h2>
+							<h2>Welcome!</h2>
 						
 						</header>
 						<p>Ever after Stephan Wensveen
 introduced him into the cultural clash of electronics and textiles somewhere in
-2012, Admar became more and more fascinated to find new methods and technologies
-that use the best of both worlds. Admar has a strong background in electrical
-engineering and embedded software design, with particular interests in signal
-processing and capacitive touch.<br><br>
+2011, Admar became more and more fascinated to find new methods and technologies
+that use the best of both worlds. This website is a short overview of some of his
+projects in this area.</p>
 
-Admar is also becoming more and more intersted in industrial design and especially
-in how seemingly subtle technical changes can influence user - product
-interactions and the overall user experience. He is by no means a designer, but
-loves to work with designers to explore this area.<br><br>
 
-Have a look around and thanks for dropping by!</p>
-							<ul class="actions">
-							<li><a
-href="#About" class="button">About Me</a></li>
-						</ul>
+<p>Have a look around and thanks for dropping by!</p>
 					</section>
 
 				<!-- Two -->
-					<a name="Work"> </a>
+					<a name="E-Textile"> </a>
 					<section id="two">
-						<section>
-						<h2>CRISP modules</h2>
-								<p><span
-class="image left"><img src="./admarschoonen_files/crisp.png" alt="CRISP modules"></span>
-						</p></span>
-<p>For the CRISP project, Admar worked closely together with Martijn ten
-B&oumlhmer to create small Arduino compatible modules that can be used in
-e-textile projects.</p>
-<p>There were individual modules for each of the following modalities:
-<ul>
-<li>Light (RGB + white)</li>
-<li>Vibration (motor driver</li>
-<li>Sound (containing a small speaker</li>
-<li>Temperature (driver for resistive loads)</li>
-<li>Wireless communication (BLE communication with smart phone)</li>
-</p>
-<p>Besides that, each module could individually be addressed and contained
-analog and digital IO and could use capacitive touch input.</p>
-<p>While each module could work standalone, the modules contained generic
-software such that for many projects, only the master module (containing BLE)
-has to be reprogrammed, saving considerable development and debug time.</p>
-
-<p>See the website of <a href=http://mtbhomer.com/>Martijn</a> for some of the
-projects that can be made with these modules.</p>
-						</section>
-						<section>
-						<h2>Fonckel</h2>
-								<p><span
-class="image left"><img src="./admarschoonen_files/fonckel-one-seriousblack.png" alt="Fonckel
-multi-touch lamp"></span>
-								</p>When working
-at Metatronics, Admar
-designed and implemented the algorithm for capacitive touch in the Fonckel One
-multi-touch lamp, starting with raw touch values up to high level gesture
-interpretation and light output.</p>
-<p>Most interesting aspect: working closely with the original designer Philip
-Ross to explore and fine-tune the behavior of the lamp.</p>
-<p>See a <a
-href=https://www.youtube.com/watch?v=D7kvXDhbRUM>video</a> to get an impression
-of the lamp.</p>
-						</section>
-				<!-- Three -->
-					<a name="Fun"> </a>
-
-						<h2>Luminch Color</h2>
-								<p><span
-class="image left"><img src="./admarschoonen_files/luminch-color.jpg"
-alt="Luminch Color lamp"></span>
-								</p>Not
-satisfied by the monochromatic color of the Fonckel lamp, Admar hacked an Ikea
-Gr&oumlno lamp into a simple
-RGB lamp to set a mood in his living room. While the lamp has ordinary red,
-green, blue and white inputs and a separate input for intensity, the actual
-color space of the lamp is not RGB but something very similar to <a
-href=https://en.wikipedia.org/wiki/Lab_color_space>CIELab</a>. This color space
-decouples intensity and color and allows a much more uniform user-experience
-when adjusting the color.</p>
-<p>Most interesting aspect: learning about human vision and implementing color
-space conversions.</p>
-<p>Want to have one? <a
-href=http://www.instructables.com/id/Luminch-Color/>Build it yourself!</a> The
-instructions and photos are not very detailed but if you are a little experienced
-in electronics and software programming you will probably figure it out.</p>
-
 						<h2>Pressure and presence
 sensing in textile</h2>
 								<p><span
 class="image left"><img src="./admarschoonen_files/resistive_captouch.png"
 alt="Presence and pressure sensing"></span>
-<p>As part of his work at Eindhoven University of Technology, Admar Schoonen and
-Troy Nachtigall
+<p>As part of their work at Eindhoven University of Technology, Admar Schoonen and
+<a href=http://troykyo.com/>Troy Nachtigall</a> 
 regularly give workshops on presence and pressure sensing in textile. Students
 will learn the basic principles behind a simple textile sensor that can be used
-for both sensing pressure (resistive sensing) and presence of a finger or a hand
-(capacitive sensing).</p>
+simultaneously for both sensing pressure (resistive sensing) and presence of a finger or a hand
+(capacitive sensing). </p>
+
+<p>This allows for rich interactions with pleasant user feedback from the sensor deformation
+when in pressure sensing mode as well as feedback for pre-interaction when the device is
+aware that you are approaching it in capacitice sensing mode.</p>
 <p>The latest version also includes a method to make the sensor only sensitive
 from one side, so it can be used in clothing without unintentionally triggering
 the capacitive sensor when moving.
@@ -214,6 +150,8 @@ all the material and source code!</p>
 								<p><span
 class="image left"><img src="./admarschoonen_files/multitouch_textile_v1.png"
 alt="Presence and pressure sensing"></span>
+<p>When one or a few touch sensors from the pressure and presence sensor above are
+not enough, then here is the capacitive multi-touch textile sensor!</p>
 <p>Since 2012, Admar is working on giving textile multi-touch functionality.
 After many failed attempts, a first successful prototype saw the light of day in
 2013.</p>
@@ -221,16 +159,92 @@ After many failed attempts, a first successful prototype saw the light of day in
 it for yourself.</p>
 <p>Source code has not yet been released, but will probably end up here
 someday.</p>
+						<h2>Pressure sensitive shoe</h2>
+								<p><span
+class="image left"><img src="./admarschoonen_files/pressure_sole.jpg"
+alt="Pressure sensitive shoe sole"></span>
+<p>A recent work in progress is to adapt the multi-touch textile for pressure
+sensing inside a shoe. This work is done in collaboration with <a
+href=http://troykyo.com/>Troy Nachtigall</a> and Lucia van den Hoven.</p>
+<p>A sneek peek of a part of the sensor is shown on the left.</p>
 						<h2>Multi-touch textile, v2</h2>
 								<p><span
 class="image left"><img src="./admarschoonen_files/IMG_0030.JPG"
 alt="Electronics for multi-touch textile v2"></span>
 								</p>While the
-multi-touch textile from 2013 is very nice, it has its limitations. Since 2014,
+multi-touch textile from 2013 is very nice, it has its limitations. Since 2014
 Admar is working on an improved version that is suitable for larger surfaces
 with higher update rates and higher resolution.</p>
 <p>It is in active development, but a sneek preview of some of the electronics
 can be seen on the left.</p>
+						<section>
+						<h2>CRISP modules</h2>
+								<p><span
+class="image left"><img src="./admarschoonen_files/crisp.png" alt="CRISP modules"></span>
+						</p></span>
+<p>For the CRISP project, Admar worked closely together with Martijn ten
+B&oumlhmer to create small Arduino compatible modules that can be used in
+e-textile projects.</p>
+<p>There were individual modules for each of the following modalities:
+<ul>
+<li>Light (RGB + white)</li>
+<li>Vibration (motor driver)</li>
+<li>Sound (containing a small speaker)</li>
+<li>Temperature (driver for resistive loads)</li>
+<li>Wireless communication (BLE communication with smart phone)</li>
+</p>
+<p>Besides that, each module could individually be addressed and contained
+analog and digital IO and could use capacitive touch input.</p>
+<p>While each module could work standalone, the modules contained generic
+software such that for many projects, only the master module (containing BLE)
+has to be reprogrammed, saving considerable development and debug time.</p>
+
+<p>See Martijns <a href=http://mtbhomer.com/>website</a> for some of the
+projects that can be made with these modules.</p>
+						</section>
+					</section>
+				<!-- Three -->
+						<section>
+					<a name="Lighting"> </a>
+						<section>
+						<h2>Fonckel</h2>
+								<p><span
+class="image left"><img src="./admarschoonen_files/fonckel-one-seriousblack.png" alt="Fonckel
+multi-touch lamp"></span>
+								</p>When working
+at Metatronics, Admar
+designed and implemented the algorithm for capacitive touch in the Fonckel One
+multi-touch lamp, starting with raw touch values up to high level gesture
+interpretation and light output.</p>
+<p>Most interesting aspect: working closely with the original designer <a
+href=http://www.studiophilipross.nl/>Philip
+Ross</a> to explore and fine-tune the behavior of the lamp.</p>
+<p>See a <a
+href=https://www.youtube.com/watch?v=D7kvXDhbRUM>video</a> to get an impression
+of the lamp.</p>
+						</section>
+					<section>
+						<h2>Luminch Color</h2>
+								<p><span
+class="image left"><img src="./admarschoonen_files/luminch-color.jpg"
+alt="Luminch Color lamp"></span>
+								</p>Not
+satisfied by the monochromatic light of the Fonckel lamp, Admar hacked an Ikea
+Gr&oumlno lamp into a simple
+RGB lamp to set a mood in his living room. While the lamp has ordinary red,
+green, blue and white inputs and a separate input for intensity, the actual
+color space of the lamp is not RGB or RGBW but something very similar to <a
+href=https://en.wikipedia.org/wiki/Lab_color_space>CIELab</a>. This color space
+decouples intensity, color and saturation and allows a much more uniform user-experience
+when adjusting the color.</p>
+<p>Most interesting aspect: learning about human vision and implementing color
+space conversions.</p>
+<p>Want to have one? <a
+href=http://www.instructables.com/id/Luminch-Color/>Build it yourself!</a> The
+instructions and photos are not very detailed but if you are a little experienced
+in electronics and software programming you will probably figure it out.</p>
+
+                        		</section> 
                         		</section> 
 
 				<!-- Four -->
@@ -242,16 +256,31 @@ can be seen on the left.</p>
 						<section> 
 							<p><span class="image
 left"><img src="./admarschoonen_files/avatar.jpg" alt=""></span>
-							Admar Schoonen is an
+							<p>Admar Schoonen is an
 embedded software architect that loves crossing boundaries and fusing different
 domains. He studied electrical engineering in Eindhoven and worked on models and
-signal processing algorithms for RF electronics. <br><br>Since good algorithm design
+signal processing algorithms for RF electronics, where he came to love algorithm design and mathematics.</p>
+
+<p>Since good algorithm design
 requires at least some understanding of software design and the (in)capabilities
 of processors, he got into embedded software design at a small company named
-Metatronics. It is there that he became fascinated with capacitive touch, industrial design and
+<a href=http://www.metatronics.nl>Metatronics</a>. It is there that he became fascinated with capacitive touch, industrial design and
 e-textiles.</p>
-Since then, Admar has worked with several designers to explore user - product
-interactions and works as coach at Eindhoven University of Technology.
+<p>Since then, Admar has worked with several designers to explore user - product
+interactions and works as coach at Eindhoven University of Technology. 
+
+Admar currently works at <a href=http://prodrive-technologies.com/>Prodrive
+Technologies</a> but is also becoming more and more intersted in industrial design and especially
+in how seemingly subtle technical changes can influence user - product
+interactions and the overall user experience.</p>
+
+<p>He still loves to work
+with e-textiles and capacitive touch and to collaborate with designers and
+students. He is by no means a designer, but
+loves to work with designers to explore this area. </p>
+
+<p>Interested in working together? Please let me <a href=#Contact>know</a>!</p>
+
 						</section>
 
 					</section>
@@ -260,7 +289,7 @@ interactions and works as coach at Eindhoven University of Technology.
 					<section id="three">
 						<h2><a name="Contact">Get In Touch</a></h2>
 						<p>If you want to know more
-about his projects, have a question or could use a little help with your project, please get in touch. </p>
+about his projects, have a question or could use a little help with your own project, please get in touch. </p>
 						<div class="row">						
 							<!--<div class="8u 12u$(small)">
 								<form method="post" action="#">
@@ -296,8 +325,6 @@ site">admarschoonen@familieschoonen.nl</a>
 
 		<!-- Footer -->
 			<footer id="footer">
-				
-				<!--<div class="image right"><img src="http://178.62.237.252/wp-content/uploads/2014/10/logo_fablab_s1.png" alt="" /></div> -->
 				
 				<ul class="icons">
 					<li><a

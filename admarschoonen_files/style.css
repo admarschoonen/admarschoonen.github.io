@@ -34,15 +34,15 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  color: #B04040;
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
-    color: #49bf9d !important;
+    color: #B04040 !important;
     text-decoration: none; }
 
 strong, b {
-  color: #787878;
+  color: #680800;
   font-weight: 400; }
 
 em, i {
@@ -52,7 +52,7 @@ p {
   margin: 0 0 2em 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #787878;
+  color: #580400;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0; }
@@ -202,7 +202,7 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #49bf9d; }
+    border-color: #B04040; }
 
 .select-wrapper {
   text-decoration: none;
@@ -293,7 +293,7 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #49bf9d; }
+    border-color: #B04040; }
 
 input[type="checkbox"] + label:before {
   border-radius: 0.35em; }
@@ -603,15 +603,15 @@ input[type="button"],
   input[type="reset"]:hover,
   input[type="button"]:hover,
   .button:hover {
-    border-color: #49bf9d;
-    color: #49bf9d !important; }
+    border-color: #B04040;
+    color: #B04040 !important; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   .button:active {
     background-color: rgba(73, 191, 157, 0.1);
-    border-color: #49bf9d;
-    color: #49bf9d !important; }
+    border-color: #B04040;
+    color: #B04040 !important; }
   input[type="submit"].icon,
   input[type="reset"].icon,
   input[type="button"].icon,
@@ -644,15 +644,15 @@ input[type="button"],
   input[type="reset"].special,
   input[type="button"].special,
   .button.special {
-    background-color: #49bf9d;
-    border-color: #49bf9d;
+    background-color: #B04040;
+    border-color: #B04040;
     color: #ffffff !important; }
     input[type="submit"].special:hover,
     input[type="reset"].special:hover,
     input[type="button"].special:hover,
     .button.special:hover {
-      background-color: #5cc6a7;
-      border-color: #5cc6a7; }
+      background-color: #b04040;
+      border-color: #b04040; }
     input[type="submit"].special:active,
     input[type="reset"].special:active,
     input[type="button"].special:active,
@@ -686,7 +686,7 @@ input[type="button"],
 
 /* Header */
 #header {
-  background-color: #1f1815;
+  background-color: #580400;
   background-attachment: scroll,								fixed;
   background-image: url("images/overlay.png"), url("../images/bg.jpg");
   background-position: top left,							top left;
